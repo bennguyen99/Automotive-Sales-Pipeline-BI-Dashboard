@@ -34,7 +34,7 @@ Deduplication is handled at the consolidation step. Since each source table cont
 An oversimplified version of the report is depicted below:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/blob/main/Images/Relationship%20Diagram.png" alt="Data Model - Relationship Diagram"/>
+  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/main/Images/Relationship%20Diagram.png" alt="Data Model - Relationship Diagram"/>
 </p>
 
 With a single fact table as the reporting foundation, Row-Level Security (RLS) implementation is straightforward: all access control is enforced through a clean fact-to-dimension relationship (`factretail_local` → `dimrls_local`), avoiding the complexity and risks associated with many-to-many relationships.
