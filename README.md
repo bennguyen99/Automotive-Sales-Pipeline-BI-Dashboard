@@ -95,3 +95,63 @@ Bank Financing accounted for 44.69% of overall payment methods and 44.61% of COI
 ### Aethel and Centaur Drive the Majority of Brand Volume
 On a YTD basis, Aethel (36,394 units) and Centaur (31,932 units) together represent approximately 39% of total lead volume across the network. Passenger Car dominates segment mix at ~82% of total, with C-Class accounting for the largest share within model class. These concentrations have direct implications for inventory planning and marketing resource allocation.
 
+## Recommendations
+### 1. Prioritize Full Payment Processing to Reduce Pipeline Delays
+
+Full Payment Delayed recorded 17,494 delayed transactions YTD—nearly twice the volume of Delivery Request and SCC delays. With 44.7% of transactions financed by banks, financing approval speed is a key driver of sales throughput.
+
+#### Recommended actions
+
+Establish a 3-business-day SLA with financing partners for loan approvals.
+Trigger automated alerts for transactions pending payment 5+ business days after Order Finalization.
+Assign dedicated finance liaisons at Apex Manchester and Apex London to expedite financing cases.
+
+#### Expected impact: Shorter sales cycles, fewer payment delays, and higher Lead-to-SCC conversion.
+
+### 2. Improve Order Finalization Through Better Workflow Management
+
+Order Finalization Pending remained the largest active bottleneck throughout the year, largely driven by Full Payment Pending and Delivery Request Pending.
+
+#### Recommended actions
+
+Monitor transactions pending 7+ days through an ageing dashboard.
+Separate ownership between Finance (payment follow-up) and Operations (delivery scheduling).
+Review cancelled Order Finalization cases monthly to identify recurring issues by showroom, brand, or consultant.
+
+#### Expected impact: Faster pipeline progression, improved SCC achievement, and earlier identification of at-risk deals.
+
+### 3. Reduce Operational Dependency on High-Volume Dealerships
+
+Apex Manchester generated approximately 35% of total network leads, creating concentration risk if performance declines at key locations.
+
+#### Recommended actions
+
+Standardize best-performing sales practices from Manchester and London across other dealerships.
+Set quarterly growth targets for lower-volume dealerships with dedicated Sales Operations support.
+Track a Top-2 Showroom Share KPI to monitor network concentration over time.
+
+#### Expected impact: More balanced dealership performance and improved operational resilience.
+
+### 4. Strengthen Financing Partnerships
+
+With nearly 45% of completed transactions financed through banks, financing efficiency directly influences transaction completion.
+
+#### Recommended actions
+
+Review financing partners quarterly using approval rate and turnaround time.
+Expand Leasing as an alternative financing option for eligible customer segments.
+Introduce financing pre-qualification during the quotation stage to identify risks earlier.
+
+#### Expected impact: Faster financing approvals and smoother progression from Order Finalization to Handover.
+
+### 5. Align Inventory and Marketing with Customer Demand
+
+Aethel and Centaur contributed approximately 39% of total leads, while Passenger Cars accounted for 82% of demand.
+
+#### Recommended actions
+
+Prioritize inventory planning for high-demand brands and vehicle classes.
+Reallocate marketing investment from low-performing brands to stronger product lines.
+Track Lead-to-SCC conversion by brand to distinguish high-interest brands from high-performing brands.
+
+#### Expected impact: Higher inventory turnover, improved campaign ROI, and better alignment between supply and market demand.
