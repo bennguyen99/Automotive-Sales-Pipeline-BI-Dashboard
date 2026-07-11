@@ -5,7 +5,7 @@ A Business Intel solution for automotive sales operations (2025) designed to mon
 
 In the premium automotive industry, every delayed transaction is a potential lost sale. While dealerships manage hundreds of active opportunities simultaneously, identifying where deals stall across the sales journey remains a significant operational challenge. Without real-time pipeline visibility, managers often rely on intuition rather than data to prioritize follow-ups, coach consultants, and allocate resources, resulting in missed targets and preventable revenue loss.
 
-To address this, Apex Auto Group (APX), a premium automotive brand, requires a centralized reporting solution that gives both headquarters and dealership managers timely visibility into sales performance and pipeline health.
+To address this, Apex Auto Group England (APX-ENG), a regional branch of a fictional premium automotive brand, requires a centralized reporting solution that gives both headquarters and dealership managers timely visibility into sales performance and pipeline health.
 
 This project delivers a business-oriented Power BI dashboard built for Retail Sales and Sales Operations, powered by a simulated dataset designed to reflect realistic automotive sales processes, transaction workflows, and operational scenarios.
 
@@ -97,13 +97,13 @@ To support this, the report's transaction-level drill-down allows Sales Managers
 </p>
 
 ### Sales Volume Is Highly Concentrated in Two Flagship Showrooms
-Apex Manchester and Apex London together account for the majority of transaction volume across all stages. In the YTD view, Apex Manchester alone generated approximately 57,000 leads (~35% of total network volume). While this concentration reflects strong market presence in key locations, it also creates dependency risk — any operational disruption at either showroom disproportionately impacts network-level KPIs.
+Apex Manchester and Apex London together account for the majority of transaction volume across all stages. In the YTD view, Apex Manchester alone generated approximately 57,000 leads (~35% of total network volume). While this concentration reflects strong market presence in key locations, it also creates dependency risk, as any operational disruption at either showroom would disproportionately impact network-level KPI performance.
 
 ### Financing Efficiency is a Direct Lever on Sales Velocity
 Bank Financing accounted for 44.69% of overall payment methods and 44.61% of COI payment methods on a YTD basis — consistent across both MTD periods as well. Given that Full Payment Delay is the leading operational bottleneck, the heavy reliance on bank financing means that the quality of financing partnerships and approval turnaround times directly influence the dealership's ability to close transactions on schedule.
 
 ### Aethel and Centaur Drive the Majority of Brand Volume
-On a YTD basis, Aethel (36,394 units) and Centaur (31,932 units) together represent approximately 39% of total lead volume across the network. Passenger Car dominates segment mix at ~82% of total, with C-Class accounting for the largest share within model class. These concentrations have direct implications for inventory planning and marketing resource allocation.
+On a YTD basis, Aethel (36,394 units) and Centaur (31,932 units) together represent approximately 39% of total lead volume across the network. Passenger Car dominates segment mix at ~82% of total, with C-Class accounting for the largest share within model class. These demand concentrations have direct implications for inventory planning, marketing resource allocation, and import prioritization heading into 2026.
 
 ## Recommendations
 ### 1. Prioritize Full Payment Processing to Reduce Pipeline Delays
@@ -112,9 +112,9 @@ Full Payment Delayed recorded 17,494 delayed transactions YTD—nearly twice the
 
 #### Recommended actions
 
-Establish a 3-business-day SLA with financing partners for loan approvals.
-Trigger automated alerts for transactions pending payment 5+ business days after Order Finalization.
-Assign dedicated finance liaisons at Apex Manchester and Apex London to expedite financing cases.
+  *  Establish a 3-business-day SLA with financing partners for loan approvals.
+  *   Trigger automated alerts for transactions pending payment 5+ business days after Order Finalization.
+  *    Assign dedicated finance liaisons at Apex Manchester and Apex London to expedite financing cases.
 
 #### Expected impact: Shorter sales cycles, fewer payment delays, and higher Lead-to-SCC conversion.
 
@@ -124,9 +124,9 @@ Order Finalization Pending remained the largest active bottleneck throughout the
 
 #### Recommended actions
 
-Monitor transactions pending 7+ days through an ageing dashboard.
-Separate ownership between Finance (payment follow-up) and Operations (delivery scheduling).
-Review cancelled Order Finalization cases monthly to identify recurring issues by showroom, brand, or consultant.
+  * Monitor transactions pending 7+ days through an ageing dashboard.
+  * Separate ownership between Finance (payment follow-up) and Operations (delivery scheduling).
+  * Review cancelled Order Finalization cases monthly to identify recurring issues by showroom, brand, or consultant.
 
 #### Expected impact: Faster pipeline progression, improved SCC achievement, and earlier identification of at-risk deals.
 
@@ -136,9 +136,9 @@ Apex Manchester generated approximately 35% of total network leads, creating con
 
 #### Recommended actions
 
-Standardize best-performing sales practices from Manchester and London across other dealerships.
-Set quarterly growth targets for lower-volume dealerships with dedicated Sales Operations support.
-Track a Top-2 Showroom Share KPI to monitor network concentration over time.
+  * Standardize best-performing sales practices from Manchester and London across other dealerships.
+  * Set quarterly growth targets for lower-volume dealerships with dedicated Sales Operations support.
+  * Track a Top2 Showroom Share KPI to monitor network concentration over time.
 
 #### Expected impact: More balanced dealership performance and improved operational resilience.
 
@@ -148,9 +148,9 @@ With nearly 45% of completed transactions financed through banks, financing effi
 
 #### Recommended actions
 
-Review financing partners quarterly using approval rate and turnaround time.
-Expand Leasing as an alternative financing option for eligible customer segments.
-Introduce financing pre-qualification during the quotation stage to identify risks earlier.
+  * Review financing partners quarterly using approval rate and turnaround time.
+  * Expand Leasing as an alternative financing option for eligible customer segments.
+  * Introduce financing pre-qualification during the quotation stage to identify risks earlier.
 
 #### Expected impact: Faster financing approvals and smoother progression from Order Finalization to Handover.
 
@@ -160,9 +160,9 @@ Aethel and Centaur contributed approximately 39% of total leads, while Passenger
 
 #### Recommended actions
 
-Prioritize inventory planning for high-demand brands and vehicle classes.
-Reallocate marketing investment from low-performing brands to stronger product lines.
-Track Lead-to-SCC conversion by brand to distinguish high-interest brands from high-performing brands.
+  * Prioritize inventory planning for high-demand brands and vehicle classes.
+  * Reallocate marketing investment from low-performing brands to stronger product lines.
+  * Track Lead-to-SCC conversion by brand to distinguish high-interest brands from high-performing brands.
 
 #### Expected impact: Higher inventory turnover, improved campaign ROI, and better alignment between supply and market demand.
 
