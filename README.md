@@ -1,19 +1,17 @@
 # Automotive Sales Pipeline BI Dashboard
-A Business Intel solution for automotive sales operations (2025) designed to monitor operational KPIs, identify transaction bottlenecks, and support business decision-making through a star-schema semantic model and interactive Power BI reports.
+A Business Intel solution for automotive sales operations (2025) designed to monitor operational KPIs, identify transaction bottlenecks, and support business decision-making through a star-schema semantic model and interactive Power BI reports. This BI report is inspired by a real-world enterprise reporting solution that I worked on.
 
 ## Project Background
 
-***This project is based on reporting workflows from a real-world automotive sales operations environment***
+In the premium automotive industry, every delayed transaction is a potential lost sale. While dealerships manage hundreds of active opportunities simultaneously, identifying where deals stall across the sales journey remains a significant operational challenge. Without real-time pipeline visibility, managers often rely on intuition rather than data to prioritize follow-ups, coach consultants, and allocate resources, resulting in missed targets and preventable revenue loss.
 
-In the premium automotive industry, every delayed transaction is a potential lost sale. While dealerships manage hundreds of opportunities simultaneously, identifying where deals stall throughout the sales journey remains a significant operational challenge. Without clear visibility into the sales funnel, managers often rely on intuition rather than data to prioritize follow-ups, coach sales consultants, or allocate resources effectively.
+To address this, Apex Auto Group (APX), a premium automotive brand, requires a centralized reporting solution that gives both headquarters and dealership managers timely visibility into sales performance and pipeline health.
 
-To address this challenge, **Apex Auto Group (APX)** — a fictional premium automotive brand inspired by real-world retail operations — requires a centralized reporting solution that enables both headquarters and dealerships to monitor sales performance in an hourly manner.
+This project delivers a business-oriented Power BI dashboard built for Retail Sales and Sales Operations, powered by a simulated dataset designed to reflect realistic automotive sales processes, transaction workflows, and operational scenarios.
 
-This portfolio project simulates a business-oriented Power BI dashboard built for Retail Sales and Sales Operations. The dataset consists of dummy data generated to reflect realistic business scenarios, sales processes, and operational workflows commonly found in premium automotive dealerships.
+The dashboard consolidates the full sales funnel (from Lead generation to Sales Card Capture (SCC)) into a single operational view, enabling managers to identify bottlenecks, locate delayed transactions, monitor dealer and consultant performance, and track progress against monthly and yearly targets. 
 
-The dashboard consolidates sales funnel performance into a single operational view, allowing managers to identify bottlenecks, locate delayed transactions, monitor dealer performance, and track progress toward monthly and yearly sales targets. By transforming operational data into actionable insights, the report supports faster decision-making and helps dealerships maximize sales opportunities before they are lost.
-
-Data is refreshed hourly from operational extracts, ensuring managers have timely information to resolve stalled deals and adjust sales strategies when necessary.
+Data is refreshed hourly, ensuring decisions are based on current pipeline state rather than yesterday's numbers.
 
 ## Data Structure
 
@@ -30,9 +28,9 @@ In the **Gold layer**, data is transformed into a business-ready star schema opt
   <i> <b> Data Architecture </b>: The architecture follows the medallion architecture </i> 
 </p>
 
-To support flexible time-based filtering across all funnel stages, these tables were consolidated into a single fact table — allowing slicers and date dimensions to operate consistently across the entire report without cross-table complexity.
+To support flexible time-based filtering across all funnel stages, these tables were consolidated into a single fact table, allowing slicers and date dimensions to operate consistently across the entire report without cross-table complexity.
 
-Deduplication is handled at the consolidation step. Since each source table contains an `updated_date_time` field tracking the latest record state, a `ROW_NUMBER()` window function partitioned by transaction key is applied to retain only the most recent record per transaction, ensuring one true lineage path is preserved throughout the funnel.
+**Deduplication** is handled at the consolidation step. Since **each source table** contains an `updated_date_time` field that tracks the latest record state, a `ROW_NUMBER()` window function, partitioned by transaction key, is applied to retain only the most recent record per transaction, ensuring a single true lineage path is preserved throughout the funnel.
 
 ```
 -- deduplicate by finding the latest record of a sales transaction
@@ -155,3 +153,6 @@ Reallocate marketing investment from low-performing brands to stronger product l
 Track Lead-to-SCC conversion by brand to distinguish high-interest brands from high-performing brands.
 
 #### Expected impact: Higher inventory turnover, improved campaign ROI, and better alignment between supply and market demand.
+
+## Dashboard features
+
